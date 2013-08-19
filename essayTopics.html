@@ -1,0 +1,61 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="essayTopics">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html" class="ui-btn-active ui-state-persist">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Essay Topics</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more essay topics needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Little Prince was written while World War 2 was occurring, 
+					though the author has not specified any metaphors for the war in his story some scenes are believed to be so. 
+					What parts of the story would you say relate to the war?</li>
+					<li data-theme="d">The first metaphor believed in reference to the war is the baobab trees, as they grow out of hand when not kept an eye on.</li>
+					<li data-theme="c">This could be a metaphor for the Nazis as they were left alone to do as they willed eventually building an army to rival any in the world.</li>
+					<li data-theme="d">Another possible metaphor is the Turkish astronomer that the Little Prince meets.</li>
+					<li data-theme="c">The astronomer is not taken seriously at first by his colleagues because of his dress, this can represent the racial stereotypes and prejudices that played such a huge role in World War 2.</li>
+					<li data-theme="d">The novel can be interpreted in a variety of ways however, and there is no evidence to prove this was intended by Saint-Exupery, however it does fit in with the time period of when it was written.</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Though the narrator listens to the Prince's stories, he does not fully understand 
+					them until he must search and find the well. What does this say about the lesson the novel teaches?</li>
+					<li data-theme="d">A major theme in the novel is that one can only gain true understanding if they experience it first hand.</li>
+					<li data-theme="c">Though the narrator understands what the Prince tells him in a general sense about what he learned on his journey, he cannot quite understand it at first.</li>
+					<li data-theme="d">However when their is a great need to find water and the narrator must set out with not much help from the Prince to find it, he gains the understanding he lacked do the experience of the journey.</li>
+					<li data-theme="c">This goes to show that to learn something useful in life one must set out to push their boundaries and experience real life, rather than sit back and believe they understand everything.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Little Prince</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

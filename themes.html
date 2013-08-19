@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Relationships and responsibility</li>
+					<li data-theme="d">The narrator discusses the responsibilities that comes with maintaining successful relationships with other people</li>
+					<li data-theme="c">He remarks that the responsibilities learned through relationships helps strengthens ones idea of responsibility in the world in general</li>
+					<li data-theme="d">The prince's relationship with the rose on his home asteroid is a prime example of this, as the prince is driven to travel to earth to save the rose</li>
+					<li data-theme="c">His deep love is the driving force behind the novel, and through his relationship with the rose he learns a great deal about life</li>
+					<li data-theme="d">The prince learns that what one gives to another is vastly more important than what one receives in return</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Exploration leads to enlightenment</li>
+					<li data-theme="d">All of the featured characters seem to desire adventure and introspection, or discovering more about one's inner self</li>
+					<li data-theme="c">Through the narrator's experience of meeting the little prince, he discovers much more about himself and the important aspects of life</li>
+					<li data-theme="d">The little prince's travels also tell of self exploration, as he is in constant search of understanding himself spiritually</li>
+					<li data-theme="c">Both the prince and the narrator are constantly exploring, and through that manage to learn more about themselves and their places in the world</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The downfall of being narrow-minded</li>
+					<li data-theme="d">The Little Prince tells of many different examples of the problems that occur to being narrow-minded</li>
+					<li data-theme="c">A great example is the Turkish man who discovers the prince's asteroid and makes a presentation on it</li>
+					<li data-theme="d">He isn't taken seriously as he is dressed in Turkish clothes, however a few years later he makes the same presentation dressed as a European and receives a very favorable reaction</li>
+					<li data-theme="c">Another example is the flower the prince meets who tells him that earth is very desolate and not many people exist</li>
+					<li data-theme="d">The flower however has lived in the desert so does not know of the populated areas of earth</li>
+					<li data-theme="c">Even the narrator and prince have times of narrow-mindedness</li>
+					<li data-theme="d">The problems with being narrow-minded seem to be the development of prejudices as well stereotypes</li>
+					<li data-theme="c">The reader sees that if one is trapped by narrow-mindedness that, they sacrifice the benefits from constant questioning, and can not lead a truly happy life</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Little Prince</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

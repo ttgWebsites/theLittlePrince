@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="bookSummary">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html" class="ui-btn-active ui-state-persist">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Book Summary</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">So basically...</li>
+					<!--Place the book summary text below-->
+					<li data-theme="d">The Little Prince was originally written in French, however its wide 
+					popularity has led to it being published all around the world in many different languages. 
+					The story begins with the narrator telling of an experience when he was young. He had drawn 
+					a picture of a boa constrictor eating an elephant, yet every adult he showed misinterpreted 
+					it as a hat. He gave up on his drawings due to his frustration. As an adult he became a pilot, 
+					and one day crash lands in the Sahara desert where he meets the Little Prince. The prince is the 
+					only person who sees his childhood drawing for what it is. The two strike a friendship, and the reader
+					then learns the prince is from outer space and lived on an asteroid. He tells of his life on the asteroid, 
+					and his experiences on Earth since then. Eventually the story returns back to the present in 
+					the desert, and the prince has decided to allow a snake to bite him in hopes to return to his asteroid.
+					The prince collapses and the narrator is distressed, however the next day the prince's body is missing. 
+					The narrator searches for him, yet he is no where to be found leaving one wondering if the prince ever 
+					made it back, or if maybe this was all a mirage.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Little Prince</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
